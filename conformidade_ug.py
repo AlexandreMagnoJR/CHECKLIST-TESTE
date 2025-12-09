@@ -100,11 +100,11 @@ def main():
 
         # Usando CSS customizado para os cabeçalhos coloridos
         col_a7.markdown('<div class="header-item"> ITEM</div>', unsafe_allow_html=True)
-        col_b7.markdown('<div class="header-item">B7: TÓPICO</div>', unsafe_allow_html=True)
-        col_c7.markdown('<div class="header-item">C7: BASE PARA CONFERÊNCIA</div>', unsafe_allow_html=True)
-        col_d7.markdown('<div class="header-item">D7: TESTE À REALIZAR</div>', unsafe_allow_html=True)
-        col_e7.markdown('<div class="header-item">E7: CONFORMIDADE</div>', unsafe_allow_html=True)
-        col_f7.markdown('<div class="header-item">F7: OBSERVAÇÕES</div>', unsafe_allow_html=True)
+        col_b7.markdown('<div class="header-item"> TÓPICO</div>', unsafe_allow_html=True)
+        col_c7.markdown('<div class="header-item"> BASE PARA CONFERÊNCIA</div>', unsafe_allow_html=True)
+        col_d7.markdown('<div class="header-item"> TESTE À REALIZAR</div>', unsafe_allow_html=True)
+        col_e7.markdown('<div class="header-item"> CONFORMIDADE</div>', unsafe_allow_html=True)
+        col_f7.markdown('<div class="header-item"> OBSERVAÇÕES</div>', unsafe_allow_html=True)
         
         # --- 5. ITEM 1: CONCILIAÇÃO BANCÁRIA (A8:F8) ---
         st.markdown('<div style="background-color: #B3D9FF; color: #003366; padding: 5px; font-weight: bold; margin-top: 10px;">A8:F8 - 1- CONCILIAÇÃO BANCÁRIA</div>', unsafe_allow_html=True)
