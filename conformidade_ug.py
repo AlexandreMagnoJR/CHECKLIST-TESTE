@@ -85,7 +85,7 @@ def main():
         with col_f4:
             periodo = st.text_input(
                 'Período', 
-                value='DEZ-2025', 
+                value='Insira a data aqui. Ex. DEZ-2025', 
                 label_visibility="collapsed"
             )
 
@@ -107,7 +107,7 @@ def main():
         col_f7.markdown('<div class="header-item"> OBSERVAÇÕES</div>', unsafe_allow_html=True)
         
         # --- 5. ITEM 1: CONCILIAÇÃO BANCÁRIA (A8:F8) ---
-        st.markdown('<div style="background-color: #B3D9FF; color: #003366; padding: 5px; font-weight: bold; margin-top: 10px;">A8:F8 - 1- CONCILIAÇÃO BANCÁRIA</div>', unsafe_allow_html=True)
+        st.markdown('<div style="background-color: #B3D9FF; color: #003366; padding: 5px; font-weight: bold; margin-top: 10px;"> - 1- CONCILIAÇÃO BANCÁRIA</div>', unsafe_allow_html=True)
 
         # A9:F9 - SUB-ITEM 1.1
         col_a9, col_b9, col_c9, col_d9, col_e9, col_f9 = st.columns([0.5, 2, 2, 3, 1.5, 3])
