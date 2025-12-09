@@ -74,7 +74,17 @@ def main():
         with col_f3:
             unidade_gestora = st.selectbox(
                 'UG', 
-                ['UG Selecione', 'UG 1001', 'UG 2002', 'UG 3003'], 
+                ['Selecione UG'
+'100001 SMG'
+'110001 CVL'
+'110006 ARQUIVO'
+'110008 SUBPAR'
+'120001 CGM'
+'150001 SMI'
+'150016 FEIP'
+'160000 SME'
+'170001 SMAS'
+'170002 FMADCA'], 
                 label_visibility="collapsed"
             )
 
