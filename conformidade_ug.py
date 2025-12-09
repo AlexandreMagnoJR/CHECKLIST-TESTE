@@ -99,7 +99,7 @@ def main():
         col_a7, col_b7, col_c7, col_d7, col_e7, col_f7 = st.columns([0.5, 2, 2, 3, 1.5, 3])
 
         # Usando CSS customizado para os cabeçalhos coloridos
-        col_a7.markdown('<div class="header-item">A7: ITEM</div>', unsafe_allow_html=True)
+        col_a7.markdown('<div class="header-item"> ITEM</div>', unsafe_allow_html=True)
         col_b7.markdown('<div class="header-item">B7: TÓPICO</div>', unsafe_allow_html=True)
         col_c7.markdown('<div class="header-item">C7: BASE PARA CONFERÊNCIA</div>', unsafe_allow_html=True)
         col_d7.markdown('<div class="header-item">D7: TESTE À REALIZAR</div>', unsafe_allow_html=True)
